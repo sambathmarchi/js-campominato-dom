@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg_red {
+    background-color: red;
+}
+
+:root {
+    --height-hf: 80px
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    height: 100px;
+}
+
+.header_button {
+    padding: 0.5rem 2rem;
+    border-radius: 0.4rem;
+    display: inline-block;
+    background-color: #34db5e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.left_side {
+    display: flex;
+    align-items: center;
+}
+
+.header_button:hover {
+    background-color: black;
+}
+
+.logo {
+    width: 50px;
+}
+
+main {
+    background-color:yellow;
+    padding: 5rem 0;
+    position: relative;
+}
+
+#container_main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.square_easy {
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_medium {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_hard {
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_bg {
+   background-color: cyan; 
+}
+
+.d-none {
+    display: none;
+}
+
+.d-visible {
+    display: block;
+    font-size: 150px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.playAgain_button {
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    position: absolute;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.playAgain_button:hover {
+    background-color: black;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flogo{
+    width: 75px;
+}
